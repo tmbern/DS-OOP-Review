@@ -85,5 +85,5 @@ if __name__ == "__main__":
 
 
     defensive_player = DefensivePlayer(name='Trent', touchdowns=1, interceptions=2, safety=1,
-                                       fumble_recovery=1, sacks=5)
+                                       fumble_recovery=1, sacks=10)
     print(defensive_player.defensive_score())
