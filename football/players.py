@@ -75,15 +75,18 @@ if __name__ == "__main__":
 
     offensive_player = Player(name='Trent', yards=100, touchdowns=2, safety=0,
                               interceptions=0, field_goals=0)
+    print(offensive_player.name)
     print(offensive_player.get_points())
 
 
 
     quarterback = Quarterback(name='Trent', yards=300, touchdowns=3, completed_passes=22,
                 interceptions=1, safety=0, field_goals=0)
+    print(quarterback.name)            
     print(quarterback.passing_score())
 
 
     defensive_player = DefensivePlayer(name='Trent', touchdowns=1, interceptions=2, safety=1,
                                        fumble_recovery=1, sacks=10)
+    print(defensive_player.name)
     print(defensive_player.defensive_score())
